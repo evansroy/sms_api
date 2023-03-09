@@ -25,6 +25,7 @@ public class Student {
     }
 
     public Student(String firstName, String lastName, String emailId, String phoneNumber, LocalDate dateOfBirth) {
+        super();
         this.firstName = firstName;
         this.lastName = lastName;
         this.emailId = emailId;
